@@ -62,6 +62,8 @@ public class App{
                 System.out.println("Nggak ada mas :')");
                 break;
         }
+
+        scan.close();
     }
 }
 
