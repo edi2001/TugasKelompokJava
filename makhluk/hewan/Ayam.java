@@ -21,7 +21,11 @@ public class Ayam extends Hewan implements TempatTinggal {
   public void getAyam() {
     System.out.println("Jenis : " + this.jenis + "\nUsia : " + this.usia + "\nWarna : " + this.warna);
     tinggal();
+    bernafas();
+    bergerak();
+    suara();
   }
+
   // Contoh Overload method
   public void getAyam(String jenis) {
     System.out.println("Jenis : " + jenis + "\nUsia : " + this.usia + "\nWarna : " + this.warna);

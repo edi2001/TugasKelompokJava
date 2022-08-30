@@ -15,6 +15,9 @@ public class Ikan extends Hewan implements TempatTinggal {
   public void getIkan() {
     System.out.println("Jenis : " + this.jenis + "\nUsia : " + this.usia + "\nWarna : " + this.warna);
     tinggal();
+    bernafas();
+    bergerak();
+    suara();
   }
 
   public String setJenis(String jenisBaru) {
