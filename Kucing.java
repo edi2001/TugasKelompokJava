@@ -27,6 +27,7 @@ public class Kucing extends Hewan implements TempatTinggal {
     return this.usia = usiaBaru;
   }
 
+  @Override
   public void tinggal() {
     System.out.println("Makhluk darat ni bos");
   }

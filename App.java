@@ -9,15 +9,15 @@ public class App{
         Ikan ik = new Ikan();
         String jenis,warna,hewan;
         int usia;
-        System.out.println("Nyari apa mas? (Ayam/Kucing/Ikan) : ");
-        hewan = scan.nextLine();
+        System.out.print("Nyari apa mas? (Ayam/Kucing/Ikan) : ");
+        hewan = scan.nextLine().toLowerCase();
         switch (hewan) {
-            case "Ayam":
-                System.out.println("Masukkan jenis : ");
+            case "ayam":
+                System.out.print("Masukkan jenis : ");
                 jenis = scan.nextLine();
-                System.out.println("Masukkan usia : ");
+                System.out.print("Masukkan usia : ");
                 usia = scan.nextInt();
-                System.out.println("Masukkan warna : ");
+                System.out.print("Masukkan warna : ");
                 warna = scan.next();
                 ay.setJenis(jenis);
                 ay.setUsia(usia);
@@ -26,12 +26,12 @@ public class App{
                 ay.getAyam();
                 System.out.println("====================");
                 break;
-            case "Kucing":
-                System.out.println("Masukkan jenis : ");
+            case "kucing":
+                System.out.print("Masukkan jenis : ");
                 jenis = scan.nextLine();
-                System.out.println("Masukkan usia : ");
+                System.out.print("Masukkan usia : ");
                 usia = scan.nextInt();
-                System.out.println("Masukkan warna : ");
+                System.out.print("Masukkan warna : ");
                 warna = scan.next();
                 kuc.setJenis(jenis);
                 kuc.setUsia(usia);
@@ -40,12 +40,12 @@ public class App{
                 kuc.getKucing();
                 System.out.println("====================");
                 break;
-            case "Ikan":
-                System.out.println("Masukkan jenis : ");
+            case "ikan":
+                System.out.print("Masukkan jenis : ");
                 jenis = scan.nextLine();
-                System.out.println("Masukkan usia : ");
+                System.out.print("Masukkan usia : ");
                 usia = scan.nextInt();
-                System.out.println("Masukkan warna : ");
+                System.out.print("Masukkan warna : ");
                 warna = scan.next();
                 ik.setJenis(jenis);
                 ik.setUsia(usia);

@@ -11,12 +11,18 @@ public class Ayam extends Hewan implements TempatTinggal {
 
   }
 
+  @Override
   void suara() {
     System.out.println("AWOKWOKAOAK");
   }
 
   void getAyam() {
     System.out.println("Jenis : " + this.jenis + "\nUsia : " + this.usia + "\nWarna : " + this.warna);
+    tinggal();
+  }
+  // Contoh Overload method
+  void getAyam(String jenis) {
+    System.out.println("Jenis : " + jenis + "\nUsia : " + this.usia + "\nWarna : " + this.warna);
     tinggal();
   }
 
@@ -32,6 +38,7 @@ public class Ayam extends Hewan implements TempatTinggal {
     return this.usia = usiaBaru;
   }
 
+  @Override
   public void tinggal() {
     System.out.println("Makhluk darat ni bos");
   }
