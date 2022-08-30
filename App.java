@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+import makhluk.hewan.Ayam;
+import makhluk.hewan.Ikan;
+import makhluk.hewan.Kucing;
+
 public class App{
     
     public static void main(String[] args) throws Exception {

@@ -1,14 +1,21 @@
+package makhluk.hewan;
+
+import makhluk.Makhluk;
+
 public class Hewan extends Makhluk {
 
-  void bernafas() {
+  @Override
+  public void bernafas() {
     System.out.println("Ya, bernafas kalo masih hidup");
   }
 
-  void bergerak() {
+  @Override
+  public void bergerak() {
     System.out.println("Ya, bisa bergerak kalo masih hidup");
   }
 
-  void suara() {
+  @Override
+  public void suara() {
     System.out.println("Ada suaranya kalo masih hidup");
   }
 }
